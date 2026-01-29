@@ -1,16 +1,101 @@
-# React + Vite
+💼 MERN Stack Interview Preparation Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full stack web application designed to help users prepare for technical interviews by practicing role-based questions. The system includes authentication, progress tracking, and a scoring mechanism.
 
-Currently, two official plugins are available:
+🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+User Authentication (Signup / Login)
 
-## React Compiler
+Role-Based Questions (Frontend, Backend, HR, etc.)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Score Tracking System
 
-## Expanding the ESLint configuration
+Mark Questions as Completed
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Progress Saved in Database
+
+REST API Integration
+
+Responsive UI
+
+🛠 Tech Stack
+
+Frontend
+
+React.js
+
+CSS
+
+Fetch API
+
+React Router
+
+Backend
+
+Node.js
+
+Express.js
+
+Database
+
+MongoDB (Local)
+
+📂 Folder Structure
+interview-prep-app
+│
+├── frontend   → React application
+├── backend    → Node + Express server
+└── README.md
+
+⚙️ How to Run Locally
+1️⃣ Clone Repository
+git clone https://github.com/YOUR_USERNAME/interview-prep-app.git
+cd interview-prep-app
+
+2️⃣ Start Backend
+cd backend
+npm install
+npm start
+
+
+Server runs on: http://localhost:5000
+
+3️⃣ Start Frontend
+
+Open new terminal:
+
+cd frontend
+npm install
+npm run dev
+
+
+Frontend runs on: http://localhost:5173
+
+🧠 How It Works
+
+User registers and logs in
+
+User selects a role
+
+Questions are fetched from the database
+
+User reveals answers and marks questions complete
+
+Score increases based on completed questions
+
+Progress is stored for future sessions
+
+🎯 Future Improvements
+
+Timer for each question
+
+Random question order
+
+Admin panel to add questions
+
+Leaderboard system
+
+👨‍💻 Author
+
+Somasundaram
+Full Stack Developer (MERN)
